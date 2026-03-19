@@ -3,7 +3,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "e87535837d20715794a65f6e7d7a6e99";
+const apiKey = "";
 
 weatherForm.addEventListener("submit", async (event) => {
   event.preventDefault();
